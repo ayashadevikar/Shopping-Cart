@@ -1,13 +1,19 @@
 import React from 'react'
+import { Link } from "react-router-dom"; 
 
 const Navbar = () => {
   return (
     <>
-       <div className='Navbar p-8'>
+       <div className='nav-items p-8'>
             <ul className='flex justify-evenly'>
-                <li>Home</li>
+               <Link to="/">
+                  <li>Home</li>
+                </Link>
                 <li>Login</li>
                 <li>Sign Up</li>
+                <Link to="/">
+                  <li>Cart</li>
+                </Link>
             </ul>
        </div>
     </>
