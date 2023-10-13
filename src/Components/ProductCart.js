@@ -1,5 +1,5 @@
 import { useDispatch, useSelector } from "react-redux";
-import { remove } from "../features/cartSlice"
+import { remove } from "../features/productcartSlice"
 
 const ProductCart = () => {
 
