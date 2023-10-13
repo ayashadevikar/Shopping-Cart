@@ -31,4 +31,4 @@ const removeToCart = (id) => {
     )
 }
 
-export default Cart
+export default Cart;
