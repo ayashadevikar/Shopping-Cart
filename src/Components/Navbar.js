@@ -18,7 +18,7 @@ const Navbar = () => {
   
              <Link to="/">Products</Link>
  
-             <Link to="/cart">My Bag 0{cartProducts.length}</Link> 
+             <Link to="/productcart">My Bag 0{cartProducts.length}</Link> 
 
           </ul>
 
@@ -34,7 +34,7 @@ const Navbar = () => {
               
                  <Link to="/" className='text-2xl'>Products</Link>
              
-                 <Link to="/cart" className='ml-auto text-xl'>My Bag 0{cartProducts.length}</Link> 
+                 <Link to="/productcart" className='ml-auto text-xl'>My Bag 0{cartProducts.length}</Link> 
             
             </ul>
 

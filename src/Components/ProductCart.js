@@ -1,7 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { remove } from "../features/cartSlice"
 
-const Cart = () => {
+const ProductCart = () => {
 
   const product = useSelector(state => state.cart);
 
@@ -31,4 +31,4 @@ const removeToCart = (id) => {
     )
 }
 
-export default Cart;
+export default ProductCart;
