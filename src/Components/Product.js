@@ -24,7 +24,7 @@ const Product = () =>{
   }
         
 return(
-      <div className="productData md:grid grid-cols-4 justify-items-center gap-6 p-8">
+      <div className="productData flex flex-col gap-x-2 md:grid grid-cols-4 justify-items-center gap-6 p-8">
       {
         product.map((products) => (
          <div key={products.id} className="productList border-2 solid rounded-md flex flex-col justify-center items-center gap-y-4 p-4">
